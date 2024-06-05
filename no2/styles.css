@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,p,h1,h2,h3,p,ul{margin: 0; padding: 0; font-family: GmarketSansMedium; }
+body {overflow-x: hidden;}
+
+.bg{background: url(../img/bg/2p.png); background-size: cover;}
+.bg1 {background: url(../img/bg/2p1.png); background-size: cover; background-attachment: fixed}
+
+.bh {position: relative; top: 100px;right: -450px; }
+.bh img{width: 400px; border-radius: 10px; box-shadow: 2px 2px 2px black }
+.happy {position: relative; top: 130px;left: 130px; }
+.happy img{width: 500px; border-radius: 10px; box-shadow: 2px 2px 2px black }
+.sad {position: relative; top: 150px; left: 80px; }
+.sad img{width: 400px; border-radius: 10px; box-shadow: 2px 2px 2px black }
+
+
+
+.textbox1 {margin-top: 100px;margin-left: 50px;width: 320px; background:white;padding: 20px;border-radius: 10px; box-shadow: 2px 2px 2px black }
+.textbox2 {margin-top: 30px; margin-left: 350px;width: 320px;background:white; padding: 20px;border-radius: 10px; box-shadow: 2px 2px 2px black }
+.textbox3 {margin-top: 100px; margin-left: 320px;width: 320px;background:white; padding: 20px;border-radius: 10px; box-shadow: 2px 2px 2px black }
+
+.wrap{width: 1000px; margin: auto; padding-bottom: 100px}
+
+.title{color:black;font-size: 120px; padding-top: 100px;}
+
+.title2{font-size: 60px; padding-top: 100px; text-align: center; color: white; text-shadow: 0px 4px 2px black;}
+.tebo1 {margin-top: 150px; margin-left: 40px;width: 400px; padding: 20px; background: white; border-radius: 10px}
+.tebo2 {margin-top: 150px; margin-left: 600px;width: 400px; padding: 20px; background: white; border-radius: 10px}
+.tebo3 {margin: auto;margin-top: 150px;width: 600px; padding: 20px; text-align: center;background: white; border-radius: 10px}
+
+.click{text-align: center; padding: 50px; padding-top: 100px; color: white; font-size: 20px}
+.click a{text-decoration: none; color: white;}
+
+.fadein{opacity: 0;animation: fadein 0.5s forwards; animation-delay: 1s}
+
+
+@keyframes fadein{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.comeup{opacity: 1;animation: up 0.5s forwards;}
+
+@keyframes up{
+      0% {
+        transform: translate(0px, 150px) scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: translate(0, 0px) scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(0px, 5px) scale(0.95);
+    }
+    100% {
+        transform: translate(0, 0) scale(1);
+}
+}
+
+
+.comein{opacity: 1; animation: in 0.8s forwards;}
+@keyframes in{
+    0% {
+        transform: translate(0px, 200px); opacity: 0;
+    }
+    100% {transform: translate(0px, 0px); opacity: 1}
+}
+
+
